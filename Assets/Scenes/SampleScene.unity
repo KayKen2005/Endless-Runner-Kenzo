@@ -1212,6 +1212,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medium Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 7438596861716745485, guid: 0aeadb383632b64488864410252dd781, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6962694
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438596861716745485, guid: 0aeadb383632b64488864410252dd781, type: 3}
+      propertyPath: m_Size.y
+      value: 0.010262683
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438596861716745485, guid: 0aeadb383632b64488864410252dd781, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.04964839
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438596861716745485, guid: 0aeadb383632b64488864410252dd781, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.087752275
+      objectReference: {fileID: 0}
     - target: {fileID: 7517275228929046123, guid: 0aeadb383632b64488864410252dd781, type: 3}
       propertyPath: m_LocalScale.x
       value: 51.91
