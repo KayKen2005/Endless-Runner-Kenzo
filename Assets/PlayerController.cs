@@ -17,7 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();       // get the rigidbody2d componant attatched to the player
+        rb = GetComponent<Rigidbody2D>();
+        playerSFX = GetComponent<AudioSource>();// get the rigidbody2d componant attatched to the player
     }
 
     void Update()
@@ -32,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            PlayerSFX.PlayOneShot(jump);
+         
+        }
             Jump();
         }
     }
@@ -43,8 +47,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // Draw a circle to visualise the ground check point in the editor
-        Gizmos.color = Color.red;
+    // Draw a circle to visualise the ground check point in the editor
+    PlayerSFX.PlayOneShot(jump);
+    Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(groundCheckPoint.position, checkRadius);
     }
 }
+
+
+public AudioClip jump;
+AudioSource playerSFX;
+
+
+
+musicPlayer.clip = backgroundMusic;
+musicPlayer.loop = true;
+musicPlayer.Play();
+sfxPlayer.PlayOneShot(jump);
+
