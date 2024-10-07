@@ -977,7 +977,7 @@ MonoBehaviour:
   - {fileID: 5908716891326407356, guid: 77d3bc3a0c4062f45bb16536f011ce65, type: 3}
   - {fileID: 2894013002041647781, guid: 0aeadb383632b64488864410252dd781, type: 3}
   - {fileID: 4507338836396745412, guid: 2b218afa26cffff41bdace490c948787, type: 3}
-  minSpawnTime: 0.5
+  minSpawnTime: 0.1
   maxSpawnTime: 3
 --- !u!4 &719456689
 Transform:
@@ -988,7 +988,7 @@ Transform:
   m_GameObject: {fileID: 719456687}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.74, y: -0.84, z: 18.81}
+  m_LocalPosition: {x: 9.34, y: -1.2, z: 18.81}
   m_LocalScale: {x: 0.40650406, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1027,7 +1027,7 @@ MonoBehaviour:
   - {fileID: 5908716891326407356, guid: 77d3bc3a0c4062f45bb16536f011ce65, type: 3}
   - {fileID: 2894013002041647781, guid: 0aeadb383632b64488864410252dd781, type: 3}
   - {fileID: 4507338836396745412, guid: 2b218afa26cffff41bdace490c948787, type: 3}
-  minSpawnTime: 0.5
+  minSpawnTime: 0.1
   maxSpawnTime: 3
 --- !u!4 &869443799
 Transform:
@@ -1038,7 +1038,7 @@ Transform:
   m_GameObject: {fileID: 869443797}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.3, y: 0.92, z: 18.810001}
+  m_LocalPosition: {x: 7.57, y: 0.5, z: 18.810001}
   m_LocalScale: {x: 0.40650406, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   - {fileID: 5908716891326407356, guid: 77d3bc3a0c4062f45bb16536f011ce65, type: 3}
   - {fileID: 2894013002041647781, guid: 0aeadb383632b64488864410252dd781, type: 3}
   - {fileID: 4507338836396745412, guid: 2b218afa26cffff41bdace490c948787, type: 3}
-  minSpawnTime: 0.5
+  minSpawnTime: 0.1
   maxSpawnTime: 3
 --- !u!4 &1357042869
 Transform:
@@ -1206,7 +1206,7 @@ Transform:
   m_GameObject: {fileID: 1357042867}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.54, y: -1, z: 18.810001}
+  m_LocalPosition: {x: 5.27, y: -1.03, z: 18.810001}
   m_LocalScale: {x: 0.40650406, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1440,6 +1440,7 @@ MonoBehaviour:
   groundlayer:
     serializedVersion: 2
     m_Bits: 8
+  jump: {fileID: 0}
 --- !u!50 &1875011171
 Rigidbody2D:
   serializedVersion: 4
@@ -1543,7 +1544,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ddb4a60200b33ce41aa098ed1d6d4efc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1733,15 +1734,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5157288055450359069, guid: 410e8e40aac6cbc4aa04dead6e81ed3e, type: 3}
       propertyPath: m_Color.b
-      value: 0.254717
+      value: 0.028835887
       objectReference: {fileID: 0}
     - target: {fileID: 5157288055450359069, guid: 410e8e40aac6cbc4aa04dead6e81ed3e, type: 3}
       propertyPath: m_Color.g
-      value: 0.22156562
+      value: 0.07759075
       objectReference: {fileID: 0}
     - target: {fileID: 5157288055450359069, guid: 410e8e40aac6cbc4aa04dead6e81ed3e, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 0.2264151
       objectReference: {fileID: 0}
     - target: {fileID: 5512997647849334942, guid: 410e8e40aac6cbc4aa04dead6e81ed3e, type: 3}
       propertyPath: m_Name
