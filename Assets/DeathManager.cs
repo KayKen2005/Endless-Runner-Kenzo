@@ -31,4 +31,11 @@ public class DeathManager : MonoBehaviour
         Application.Quit();
     }
 
+
+    public void play()
+    {
+
+        SceneManager.LoadSceneAsync(1);
+    }
+
 }
