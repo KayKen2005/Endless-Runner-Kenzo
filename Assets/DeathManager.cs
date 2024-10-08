@@ -20,7 +20,7 @@ public class DeathManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         Debug.Log("heeeey");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(1);
 
     }
 
