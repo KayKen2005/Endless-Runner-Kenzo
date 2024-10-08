@@ -45,11 +45,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (isGrounded)
         {
-            anim.SetBool("isGrounded", true);
+            anim.SetBool("isOnGround", true);
         }
         if (isGrounded == false)
         {
-            anim.SetBool("isGrounded", false);
+            anim.SetBool("isOnGround", false);
         }
 
     }
