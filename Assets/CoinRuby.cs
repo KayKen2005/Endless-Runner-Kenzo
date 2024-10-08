@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class CoinRuby : MonoBehaviour
 {
+    public GameObject coinPrefab;
+
+
+    public Vector2 coinOffset = new Vector2(0, 1);
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
+
+        SpawnCoin();
     }
 
     // Update is called once per frame
-    void Update()
+    void SpawnCoin()
     {
-        
+
+
+        Vector3 coinPosition = transform.position + (Vector3)coinOffset;
+
+        Instantiate(coinPrefab, coinPosition, Quaternion.identity);
     }
 }

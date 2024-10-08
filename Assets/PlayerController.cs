@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //constant forward movement
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
-
+        
         //check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, checkRadius, groundlayer);
 
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
         {
-            anim.SetBool("IsOnGround", isGrounded);
+            anim.SetBool("isOnGround", isGrounded);
         }
 
         if (isGrounded)
