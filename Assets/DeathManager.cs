@@ -10,7 +10,7 @@ public class DeathManager : MonoBehaviour
 
     public void ShowDeathScreen()
     {
-        Debug.Log("heeeey1");
+       // Debug.Log("heeeey1");
         DeathScreenCanvas.SetActive(true);
 
         Time.timeScale = 1f;
@@ -19,7 +19,7 @@ public class DeathManager : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
-        Debug.Log("heeeey");
+        //Debug.Log("heeeey");
         SceneManager.LoadScene(1);
 
     }
