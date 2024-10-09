@@ -1107,9 +1107,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2094680276579014477, guid: 2b218afa26cffff41bdace490c948787, type: 3}
-      propertyPath: coinPrefab
-      value: 
-      objectReference: {fileID: -2253911629886400664, guid: 6fb3113bbf8a20044a580407f1cec188, type: 3}
+      propertyPath: coinOffset.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3852956234303148242, guid: 2b218afa26cffff41bdace490c948787, type: 3}
       propertyPath: m_LocalScale.x
       value: 27.4

@@ -12,7 +12,7 @@ public class CoinCollect : MonoBehaviour
         {
 
             Destroy(gameObject);
-            Debug.Log("collected");
+            
 
         }
         // Update is called once per frame
